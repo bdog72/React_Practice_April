@@ -2,7 +2,7 @@
 
    You need to install both of these in terminal
 
-   npm install --save react react-dom
+   npm install --save react react-dom and 
    npm install --save react-bootstrap
 
    Then add this in the head of your index.html file
