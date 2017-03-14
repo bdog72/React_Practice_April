@@ -1,10 +1,18 @@
 import React, { Component } from 'react'
 
-class App extends Component {
+import { Image, Jumbotron } from 'react-bootstrap'
 
+class App extends Component {
   render () {
     return <div>
-      <h1>Hello, World!</h1>
+      <div>
+        <Image className='image1' src='http://doglers.com/wp-content/gallery/beagle-puppies-photos/Beagle-Puppy-Photo.jpg' responsive />
+      </div>
+      <div>
+        <Jumbotron>
+          <Image className='image1' src='http://doglers.com/wp-content/gallery/beagle-puppies-photos/Beagle-Puppy-Photo.jpg' responsive />
+        </Jumbotron>
+      </div>
     </div>
   }
 }
