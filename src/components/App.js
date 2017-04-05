@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import App1 from './App1'
 import Clock from './Clock'
+import Toggle from './Toggle'
 import { Image, Jumbotron } from 'react-bootstrap'
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
       </Jumbotron>
       <App1 />
       <Clock />
+      <Toggle />
     </div>
   }
 }
