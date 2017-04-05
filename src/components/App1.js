@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class App1 extends Component {
   render () {
     function Welcome (props) {
-      return <h1>Hello, {props.name}</h1>
+      return <h3>Hello, {props.name}</h3>
     }
     return <div>
       <div>
@@ -11,7 +11,6 @@ export default class App1 extends Component {
         <Welcome name='Cahal' />
         <Welcome name='Edite' />
       </div>
-
     </div>
   }
 }
