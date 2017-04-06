@@ -10,7 +10,7 @@ class App extends Component {
     return <div>
       <Jumbotron>
         <h1>Responsive Image with Bootstrap</h1>
-        <Image className='image1' src='http://doglers.com/wp-content/gallery/beagle-puppies-photos/Beagle-Puppy-Photo.jpg' responsive />
+        <Image className='image1' src='https://s-media-cache-ak0.pinimg.com/736x/ac/6e/2a/ac6e2a153df28eb73cf33921e61ca7a1.jpg' responsive />
       </Jumbotron>
       <App1 />
       <Clock />
