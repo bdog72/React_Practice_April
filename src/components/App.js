@@ -4,6 +4,7 @@ import Clock from './Clock'
 import Toggle from './Toggle'
 import Warning from './Warning'
 import Practice from './Practice'
+import NameForm from './NameForm'
 import { Image, Jumbotron } from 'react-bootstrap'
 
 class App extends Component {
@@ -20,6 +21,9 @@ class App extends Component {
       <Warning />
       <br />
       <Practice />
+      <br />
+      <h1>Type a name and hit submit</h1>
+      <NameForm />
     </div>
   }
 }
