@@ -13,3 +13,9 @@ body {
   margin: 20px;
   font: $base-text-size / 1 $base-font-family;
 }
+
+.warning {
+  background-color: red;
+  color: white;
+  margin-bottom: 10px;
+}
