@@ -6,6 +6,7 @@ import Warning from './Warning'
 import Practice from './Practice'
 import NameForm from './NameForm'
 import Essay from './Essay'
+import FlavorForm from './FlavorForm'
 import { Image, Jumbotron } from 'react-bootstrap'
 
 class App extends Component {
@@ -27,6 +28,8 @@ class App extends Component {
       <NameForm />
       <br />
       <Essay />
+      <br />
+      <FlavorForm />
     </div>
   }
 }
