@@ -8,6 +8,7 @@ import NameForm from './NameForm'
 import Essay from './Essay'
 import FlavorForm from './FlavorForm'
 import Reservation from './Reservation'
+import Calculator from './Calculator'
 import { Image, Jumbotron } from 'react-bootstrap'
 
 class App extends Component {
@@ -33,6 +34,8 @@ class App extends Component {
       <FlavorForm />
       <br />
       <Reservation />
+      <br />
+      <Calculator />
     </div>
   }
 }
