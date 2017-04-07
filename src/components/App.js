@@ -5,6 +5,7 @@ import Toggle from './Toggle'
 import Warning from './Warning'
 import Practice from './Practice'
 import NameForm from './NameForm'
+import Essay from './Essay'
 import { Image, Jumbotron } from 'react-bootstrap'
 
 class App extends Component {
@@ -24,6 +25,8 @@ class App extends Component {
       <br />
       <h1>Type a name and hit submit</h1>
       <NameForm />
+      <br />
+      <Essay />
     </div>
   }
 }
