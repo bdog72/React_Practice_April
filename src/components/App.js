@@ -31,9 +31,12 @@ class App extends Component {
       <br />
       <Essay />
       <br />
+      <br />
       <FlavorForm />
       <br />
+      <br />
       <Reservation />
+      <br />
       <br />
       <Calculator />
     </div>
