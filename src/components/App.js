@@ -10,7 +10,7 @@ import FlavorForm from './FlavorForm'
 import Reservation from './Reservation'
 import Calculator from './Calculator'
 import Calculator1 from './Calculator1'
-
+import SignUpDialog from './SignUpDialog'
 import { Image, Jumbotron } from 'react-bootstrap'
 
 class App extends Component {
@@ -70,6 +70,11 @@ class App extends Component {
       <br />
       <div className='border'>
         <Calculator1 />
+      </div>
+      <br />
+      <br />
+      <div className='border'>
+        <SignUpDialog />
       </div>
     </div>
   }
