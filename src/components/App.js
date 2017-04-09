@@ -12,6 +12,7 @@ import Calculator from './Calculator'
 import Calculator1 from './Calculator1'
 import SignUpDialog from './SignUpDialog'
 import App2 from './App2.js'
+import FilterableProductTable from './FilterableProductTable'
 import { Image, Jumbotron } from 'react-bootstrap'
 
 class App extends Component {
@@ -79,10 +80,25 @@ class App extends Component {
       </div>
       <br />
       <br />
-      <div className='border' />
-      <App2 />
+      <div className='border'>
+        <App2 />
+      </div>
+      <br />
+      <br />
+      <div className='border'>
+        <FilterableProductTable products={PRODUCTS} />
+      </div>
     </div>
   }
 }
+
+var PRODUCTS = [
+  {category: 'Shoes', price: '$49.99', stocked: true, name: 'Nike'},
+  {category: 'Shoes', price: '$39.99', stocked: true, name: 'Addidas'},
+  {category: 'Shoes', price: '$59.99', stocked: false, name: 'Fila'},
+  {category: 'Electronics', price: '$399.99', stocked: true, name: 'Ipad'},
+  {category: 'Electronics', price: '$199.99', stocked: false, name: 'Ipad Mini'},
+  {category: 'Electronics', price: '$599.99', stocked: true, name: 'Iphone 6'}
+]
 
 export default App
